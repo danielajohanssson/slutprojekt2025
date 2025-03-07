@@ -1,1 +1,34 @@
 /* STILMALL */
+
+#container {
+    display: grid;
+    height: 100vh;
+    grid-template-areas:
+    'hd hd hd hd'
+    'nv nv nv nv'
+    'sec sec sec sec'
+    'ft ft ft ft' ;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    grid-area: hd;
+    background-color: blue;
+    
+}
+
+nav {
+    grid-area: nv;
+    background-color: burlywood;
+}
+
+section {
+    grid-area: sec;
+    background-color: rgb(87, 73, 73);
+}
+
+footer {
+    grid-area: ft;
+    background-color: red;
+}
