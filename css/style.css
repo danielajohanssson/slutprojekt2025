@@ -4,28 +4,36 @@
     display: grid;
     height: 100vh;
     grid-template-areas:
-    'hd hd hd hd'
+    'hd1 hd1 hd1 hd1'
+    'hd2 hd2 hd2 hd2'
     'nv nv nv nv'
+    'sec sec sec sec'
     'sec sec sec sec'
     'ft ft ft ft' ;
     margin: auto;
     font-family: 'Times New Roman', Times, serif;
 }
 
-header {
-    grid-area: hd;
-    background-color: blue;
-    
+#hd1 {
+    grid-area: hd2;
+    background-color: rgb(254, 254, 254);
+    border-bottom: 5px;
+}
+
+#hd2 {
+    grid-area: hd1;
+    background-color: rgb(239, 146, 188);
+    border-bottom: 5px;
 }
 
 nav {
     grid-area: nv;
-    background-color: burlywood;
+    background-color: rgb(244, 151, 193);
 }
 
 section {
     grid-area: sec;
-    background-color: rgb(87, 73, 73);
+    background-color: rgb(245, 181, 210);
 }
 
 footer {
