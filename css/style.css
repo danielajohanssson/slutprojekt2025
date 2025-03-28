@@ -163,7 +163,7 @@ h6 {
 
 #meny {
     height: 4rem;
-    width: 4em;
+    width: 4rem;
     margin-top: 0px;
 }
 
@@ -176,11 +176,55 @@ h6 {
 }
 
 #meny div {
-    border: 5px solid rgb(231, 74, 145);
+    border: 3px solid rgb(231, 74, 145);
     margin: 10%;
     height: 0.1px;
     width: 50px;    
     background-color: rgb(231, 74, 145);
 }
 
+.cardWrapper {
+    display: flex;
+    gap: 10%;
+    flex-wrap: nowrap;
+    margin: 2% auto;
+    background-size: cover;
+    justify-content: center;
+}
 
+.cardWrapper div {
+   border: 5px dotted rgb(231, 74, 145);
+    width: 190px;
+    height: 315px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    border-radius: 5%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: rgb(231, 74, 145);
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.card1 {
+    background-image: url("../img/");
+}
+
+.card2 {
+    background-image: url("../img/");
+}
+
+.card3 {
+    background-image: url("../img/");
+}
+ 
+.card4 {
+    background-image: url("../img/");
+}
+
+.cardWrapper div p {
+    position: absolute;
+    top: 83%;
+}
