@@ -209,22 +209,123 @@ h6 {
 }
 
 .card1 {
-    background-image: url("../img/");
+    background-image: url("img/choklad.jpg");
 }
 
 .card2 {
-    background-image: url("../img/");
+    background-image: url("../img/sur patron.jpg");
 }
 
 .card3 {
-    background-image: url("../img/");
+    background-image: url("../img/twinkie.jpg");
 }
  
 .card4 {
-    background-image: url("../img/");
+    background-image: url("../img/geleråttor.jpg");
 }
 
 .cardWrapper div p {
     position: absolute;
     top: 83%;
+}
+
+#aside1 {
+    font-size: larger;
+}
+
+#p10 {
+    font-weight: 900;
+}
+
+#p11 {
+    font-weight: 900;
+}
+
+.imgcard {
+    display: flex;
+    gap: 20%;
+    flex-wrap: nowrap;
+    margin: 2% auto;
+    background-size: cover;
+    justify-content: center;
+}
+
+.imgcard div {
+    border: 5px dotted rgb(231, 74, 145);
+    width: 315px;
+    height: 315px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    border-radius: 5%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: rgb(231, 74, 145);
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.imgcard div p {
+    position: absolute;
+    top: 83%;
+}
+
+.card0 {
+    background-image: url("img/bakom kulisserna.jpg");
+}
+
+.pricecard {
+    display: flex;
+    gap: 3%;
+    flex-wrap: nowrap;
+    margin: 2% auto;
+    background-size: cover;
+    justify-content: center;
+}
+
+.pricecard div {
+   border: 5px dotted rgb(231, 74, 145);
+    width: 315px;
+    height: 315px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: rgb(231, 74, 145);
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.pricecard div p {
+    position: absolute;
+    top: 83%;
+}
+
+.card-1 {
+    background-image: url("img/....jpg");
+}
+
+#p13 {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#p14 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#p15 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#aside2 {
+    flex: 1px;
+    text-align: left;
+
 }
