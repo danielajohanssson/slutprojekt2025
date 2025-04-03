@@ -333,55 +333,66 @@ h3 {
 
 }
 
-@media (max-width: 700px) {
-  
-
+@media (min-width: 700px) {
 
 .nav {
-    flex-direction: column;
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    top: 50px;
+    position: static;
+    left: 10px;
+    right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px grey;
 }
 
-.nav {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.nav.show {
+    display: flex;
+}
+
+.nav div a {
+    font-size: 18px;
 }
 
 body {
-    width: 50%;
-    max-width: 50%;
-    overflow-x: hidden;
-}
-
-#conatiner {
-    max-width: 50%;
-    width: 50%;
-    margin: 0 auto;
-    padding: 0 10px;
-}
-
-img {
-    max-width: 50%;
-    height: auto;
-    display: block;
-}
-
-#hd1 #hd2 .pricecard #meny {
-    max-width: 50%;
+    margin: 0;
+    padding: 0;
     text-align: center;
-    flex-direction: column;
+}
+
+#container {
+    width: 90%;
+    margin: auto;
+
+}
+
+#hd1 {
+    display: flex;
     align-items: center;
-    text-align: center;
+    justify-content: space-between;
+    padding: 10px;
 }
 
-#varukorg {
-    max-width: 70%;
-    word-wrap: break-word;
+#hd2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;  
+}
+
+#meny {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#meny div {
     width: 30px;
-}
+    height: 5px;
 
+}
 
 }
 
