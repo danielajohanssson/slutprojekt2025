@@ -116,6 +116,16 @@ h3 {
     color: rgb(231, 74, 145);
 }
 
+h6 {
+    text-align: right;
+    font-size: 130%;
+    margin: 0.8%;
+    background-color: rgb(231, 74, 145);
+    color: black;
+    padding: 0.6%;
+    display: inline;
+}   
+
 .p1 {
     color: purple;
 }
@@ -333,65 +343,10 @@ h3 {
 
 }
 
-@media (min-width: 700px) {
-
+@media (max-width: 600px) {
+  
 .nav {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    top: 50px;
-    position: static;
-    left: 10px;
-    right: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0px 4px 6px grey;
-}
-
-.nav.show {
-    display: flex;
-}
-
-.nav div a {
-    font-size: 18px;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-#container {
-    width: 90%;
-    margin: auto;
-
-}
-
-#hd1 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-}
-
-#hd2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;  
-}
-
-#meny {
-    display: flex;
     flex-direction: column;
-    gap: 5px;
-}
-
-#meny div {
-    width: 30px;
-    height: 5px;
-
 }
 
 }
@@ -415,7 +370,6 @@ body {
     color: black;
     font-weight: 100;
 }
- 
 
 #p17 {
     background-color: rgb(231, 74, 145);
